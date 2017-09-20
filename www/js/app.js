@@ -47,6 +47,13 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         controller: 'DashCtrl'
   })
 
+  .state('map', {
+    url: '/map-dash',
+
+        templateUrl: 'templates/mapActivity.html',
+        controller: 'DashCtrl'
+  })
+
   .state('tab.dash', {
     url: '/dasha',
     views: {

@@ -2,11 +2,13 @@
 <items version="2" >
 
     <item
-        jar="/Users/geoffrey/Desktop/BINGO/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        is-multidex="false"
+        jar="C:\Users\ABDMA58\BINGO\platforms\android\CordovaLib\build\intermediates\bundles\debug\classes.jar"
         jumboMode="false"
+        optimize="true"
         revision="26.0.1"
-        sha1="2019a5656ad423fc35cb8cd379a23e302088dc94">
-        <dex dex="/Users/geoffrey/Desktop/BINGO/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-unspecified-debug_22bb46f53979e78395636ef469c88067c9557b19.jar" />
+        sha1="cf349bc1ddc57102db7b689542748d5dbb38f734">
+        <dex dex="C:\Users\ABDMA58\BINGO\platforms\android\build\intermediates\pre-dexed\debug\classes_72fb3771174df09349c909f050707ce9de07e6b9.jar" />
     </item>
 
 </items>

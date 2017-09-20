@@ -5,37 +5,38 @@
     <div class="rewardbox">
         ABSA Rewards Partners
         <div class="rewardSliderBox">
-          <div class="reward" style="background-image:url(img/AVIS.png); background-size:90%; background-repeat:no-repeat;background-position: center center;" ></div>
-          <div class="reward" style="background-image:url(img/Tiger-Wheel-and-Tyre-logo.png);background-size:90%; background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
-          <div class="reward" style="background-image:url(img/Media24.png);background-size:90%;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
-          <div class="reward" style="background-image:url(img/Bidvest_CarRental.png);background-size:90%;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
-          <div class="reward" style="background-image:url(img/goldwagen-logo.png);background-size:90%;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
-          <div class="reward" style="background-image:url(img/Showmax.png);background-size:90%;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
-          <div class="reward" style="background-image:url(img/Dis-Chem.png);background-size:90%;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
-          <div class="reward" style="background-image:url(img/NuMetro.png);background-size:90%;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
-          <div class="reward" style="background-image:url(img/Matrix.png);background-size:90%;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
-          <div class="reward" style="background-image:url(img/Anat.png);background-size:90%;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
-          <div class="reward" style="background-image:url(img/Cashbuild.png);background-size:90%;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
-          <div class="reward" style="background-image:url(img/Thekidzone.png);background-size:90%;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
-          <div class="reward" style="background-image:url(img/the_baby_zone.png);background-size:90%;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
-          <div class="reward" style="background-image:url(img/NetFlorist.png);background-size:90%;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
-          <div class="reward" style="background-image:url(img/CaCell.png);background-size:90%;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
-          <div class="reward" style="background-image:url(img/RunWalkForLife.png);background-size:90%;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
+          <div class="reward" id="avis" onclick="avis()" style="background-image:url(img/AVIS.png); background-size:90%; background-repeat:no-repeat;background-position: center center;" ></div>
+          <div class="reward" id="Tiger-Wheel-and-Tyre" onclick="Tiger-Wheel-and-Tyre()"  style="background-image:url(img/Tiger-Wheel-and-Tyre-logo.png);background-size:90%; background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
+          <div class="reward" id="Media24" onclick="Media24()"  style="background-image:url(img/Media24.png);background-size:90%;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
+          <div class="reward" id="Bidvest_CarRental" onclick="Bidvest_CarRental()"  style="background-image:url(img/Bidvest_CarRental.png);background-size:90%;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
+          <div class="reward" id="goldwagen" onclick="goldwagen()"  style="background-image:url(img/goldwagen-logo.png);background-size:90%;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
+          <div class="reward" id="Showmax" onclick="Showmax()"  style="background-image:url(img/Showmax.png);background-size:90%;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
+          <div class="reward" id="Dis-Chem" onclick="Dis-Chem()"  style="background-image:url(img/Dis-Chem.png);background-size:90%;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
+          <div class="reward" id="NuMetro" onclick="NuMetro()"  style="background-image:url(img/NuMetro.png);background-size:90%;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
+          <div class="reward" id="Matrix" onclick="Matrix()"  style="background-image:url(img/Matrix.png);background-size:90%;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
+          <div class="reward" id="Anat" onclick="Anat()"  style="background-image:url(img/Anat.png);background-size:90%;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
+          <div class="reward" id="Cashbuild" onclick="Cashbuild()"  style="background-image:url(img/Cashbuild.png);background-size:90%;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
+          <div class="reward" id="Thekidzone" onclick="Thekidzone()"  style="background-image:url(img/Thekidzone.png);background-size:90%;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
+          <div class="reward" id="the_baby_zone" onclick="the_baby_zone()"  style="background-image:url(img/the_baby_zone.png);background-size:90%;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
+          <div class="reward" id="NetFlorist" onclick="NetFlorist()"  style="background-image:url(img/NetFlorist.png);background-size:90%;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
+          <div class="reward" id="CaCell" onclick="CaCell()"  style="background-image:url(img/CaCell.png);background-size:90%;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
+          <div class="reward" id="RunWalkForLife" onclick="RunWalkForLife()"  style="background-image:url(img/RunWalkForLife.png);background-size:90%;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
         </div>
 
         <div class="productsBox">
-          Products you qualify
+          Absa Rewards Earnings
           <div class="product">
             <div class="productCircle" style="background-image:url(img/RunWalkForLife.png);background-size:90%;margin-left:0px;margin-top:0px;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
           </div>
 
-            <div class="details">
-              <b>Product name</b> <br/>
-              Product details ...
+            <div class="details" id="partnerDetails">
+              Get up to <b>15% </b> <br/>
+              Cash Rewards on all car rentals booked through the exclusive link. <br/>
+              <a href="http://www.avispartners.co.za/ABSA-Rewards/">Avis Car Rental</a>
             </div>
 
 
-          <div class="product">
+          <div class="product" id="partnerLogo">
             <div class="productCircle" style="background-image:url(img/RunWalkForLife.png);background-size:90%;margin-left:0px;margin-top:0px;background-repeat: no-repeat;background-attachment: fixed; background-position: center center "></div>
           </div>
 
@@ -49,7 +50,7 @@
     </div>
 
     <div class="level">
-      Rewards Level
+      Rewards Tier : Tier 3
     </div>
 
 
